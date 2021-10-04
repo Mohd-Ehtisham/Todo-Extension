@@ -1,38 +1,57 @@
-.App {
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fffafa;
+}
+h2,
+h4 {
+  margin: 0;
+  text-transform: uppercase;
+}
+.main-div {
+  width: 300px;
   text-align: center;
+  padding: 15px 0 15px 0;
+  background-color: #221c6d;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icons {
+  padding-top: 4px;
+  margin: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.addItems {
+  position: relative;
+  text-align: center;
+  margin-right: 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.add {
+  position: absolute;
+  top: 4px;
+  font-size: 25px;
 }
-
-.App-link {
-  color: #61dafb;
+input {
+  width: 70%;
+  border-radius: 15px;
+  padding: 6px;
+  font-size: medium;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tasks {
+  background-color: #6860a4;
+  border-radius: 15px;
+  margin: 0px 8px 7px 8px;
+  padding: 4px;
+  position: relative;
+}
+.deleteiocns {
+  position: absolute;
+  top: 6px;
+}
+.RemoveAll button {
+  margin-top: 9px;
+  text-transform: uppercase;
+  /* border-radius: 15px; */
+  padding: 5px;
+  background-color: rgb(255, 66, 66);
+  color: #fffafa;
 }
